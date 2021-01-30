@@ -2,10 +2,10 @@
 
 from aws_cdk import core
 
-from cdk_py.cdk_py_stack import CdkPyStack
+from cdk_py.cdk_py_stack import CdkpyStack
 
 
 app = core.App()
-CdkPyStack(app, "cdk-py")
+CdkpyStack(app, "cdk-py")
 
 app.synth()

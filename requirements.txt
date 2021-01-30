@@ -1,1 +1,9 @@
 -e .
+# AWS
+aws-cdk.core
+aws-cdk.aws-s3
+aws-cdk.aws-s3-deployment
+
+# dev
+pytest
+requests

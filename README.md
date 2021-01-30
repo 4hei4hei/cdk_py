@@ -56,3 +56,11 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+
+```bash
+cdk init app --language python
+source .venv/bin/activate
+pip install --upgrade pip
+python -m pip install -r requirements.txt
+
